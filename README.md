@@ -6,7 +6,7 @@ Here are the data input for the model and some key results.
 
 **Modeling output and sensitivities of the mobility ratio and time step**
 
-The mobility ratio is defined as M = (krwmu_o)/(kromu_w). Increasing the mobility ratio is equivalent to decreasing the ratio of viscosities (mu_w/mu_o). The results suggest that increasing the mobility ratio: reduces the time to water break through and lowers the efficiency of production (by increasing the time to produce all viable oil). However, increasing the mobility ratio does reduce the injection pressure necessary to support a constant injection rate.
+The mobility ratio is defined as M = (krw.mu_o)/(kro.mu_w). Increasing the mobility ratio is equivalent to decreasing the ratio of viscosities (mu_w/mu_o). The results suggest that increasing the mobility ratio: reduces the time to water break through and lowers the efficiency of production (by increasing the time to produce all viable oil). However, increasing the mobility ratio does reduce the injection pressure necessary to support a constant injection rate.
 
 **1. mu_o = mu_w**
 
