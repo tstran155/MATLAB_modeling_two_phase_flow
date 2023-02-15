@@ -42,6 +42,7 @@ Here are the data input for the model and some key results.
 
 · Initial condition:
 
+   So_ini = 1 - Swc , Pini = 100 [bar]
 
 
 **Modeling output and sensitivities of the mobility ratio and time step**
@@ -65,7 +66,7 @@ The mobility ratio is defined as M = (krw.mu_o)/(kro.mu_w). Increasing the mobil
 **3. Unstable solution with mu_o = mu_w**
 
 Although I used an implicit method (IMPES) to solve for pressure, stability is not guaranteed due to the embedded assumption of constant saturation over a timestep. Reducing the grid size and time step both tend to increase the accuracy of results, as long as stability
-requirements are met. However, reducing the time step or grid size increase the time to run the simulations. In this sensityvity, I increased the timestep from Nt = 400 (above stable solutions) to Nt = 100 to illustrate how computational overhead affect the solution stability.   
+requirements are met. However, reducing the time step or grid size increase the time to run the simulations. In this sensityvity, I increased the timestep size from Nt = 400 (above stable solutions) to Nt = 100 to illustrate how computational overhead affect the solution stability.   
 
 ![testAnimated_muy_o=muy_w](https://user-images.githubusercontent.com/86640902/219053413-d4b16f24-548b-4912-b58d-d7b184ec41a2.gif)
 
