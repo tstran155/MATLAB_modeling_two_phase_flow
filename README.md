@@ -26,11 +26,11 @@ Here are the data input for the model and some key results.
 
 P<sub>C_ow</sub> = 0 [bar]
 
-k<sub>rw</sub> = k<sub>rw</sub><sup>o</sup> (Sk<sub>e</sub>)<sup>n<sub>w</sub></sup>
+k<sub>rw</sub> = k<sub>rw</sub><sup>o</sup> (S<sub>e</sub>)<sup>n<sub>w</sub></sup>
 
-k<sub>ro</sub> = k<sub>ro</sub><sup>o</sup> (1 - Sk<sub>e</sub>)<sup>n<sub>o</sub></sup>
+k<sub>ro</sub> = k<sub>ro</sub><sup>o</sup> (1 - S<sub>e</sub>)<sup>n<sub>o</sub></sup>
 
-Sk<sub>e</sub> = \frac{n!}{k!(n-k)!}
+S<sub>e</sub> = (S<sub>w</sub> - S<sub>wc</sub>) / (1 - S<sub>wc</sub> - S<sub>or</sub>)
 
 n<sub>w</sub> = 3, n<sub>o</sub> = 2, k<sub>rw</sub><sup>o</sup> = 0.7, k<sub>ro</sub><sup>o</sup> = 0.8, S<sub>wc</sub> = 0.2, S<sub>or</sub> = 0.1 
 
