@@ -34,15 +34,23 @@ Here are the data input for the model and some key results.
 
 · Rock is homogenous, isotropic and incompressible:
 
+k = 1 [Darcy], Φ = 0.2, c<sub>r</sub> = 0 [1/Pa] 
+
 4. Injection and production mode and initial condition:
 
-· Constant injection at the inlet:
+· Constant injection at the inlet (standard condition):
+
+q<sub>w_inj</sub> = 12 [mL/min]
+
+q<sub>o_inj</sub> = 0 [mL/min]
 
 · Production with constant pressure at the outlet:
 
+  P<sub>pro</sub> = 100 [bar]
+
 · Initial condition:
 
-   S<sub>o_ini</sub> = 1 - S<sub>wc</sub> , P<sub>ini</sub> = 100 [bar]
+   S<sub>o_ini</sub> = 1 - S<sub>wc</sub>, P<sub>ini</sub> = 100 [bar]
 
 
 **Modeling output and sensitivities of the mobility ratio and time step**
