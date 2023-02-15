@@ -1,6 +1,6 @@
 # MATLAB_modeling_two_phase_flow (UPDATING!)
 
-In this project, I formulate an IMPES (Implicit Pressure, Explicit Saturation) method to simulate two-phase fluid displacement experiments in porous media. Consider an experimental setup consisting of a pump, a core sample and a pressure valve. The core is initially saturated with oil and connate water i.e. So_init = 1 - Swc. The pump is connected to the inlet of the core sample and starts injecting pure water into the core with a constant rate (measured at Standard Condition). At the outlet a pressure valve is connected to the core that maintains a constant outlet pressure during the experiment.
+In this project, I formulate an IMPES (Implicit Pressure, Explicit Saturation) method to simulate two-phase fluid displacement experiments in porous media. Consider an experimental setup consisting of a pump, a core sample and a pressure valve. The core is initially saturated with oil and connate water i.e. S<sub>o_init</sub> = 1 - S<sub>wc</sub>. The pump is connected to the inlet of the core sample and starts injecting pure water into the core with a constant rate (measured at Standard Condition). At the outlet a pressure valve is connected to the core that maintains a constant outlet pressure during the experiment.
 
 
 <ins>Assumptions</ins>:
