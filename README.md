@@ -1,7 +1,5 @@
 # MATLAB_two_phase_flow_simulation
 
-
-
 Here are the data input for the model and some key results.
 
 **Data input deck**
