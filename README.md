@@ -3,7 +3,7 @@
 In this project, I formulate an IMPES (Implicit Pressure, Explicit Saturation) method to simulate two-phase fluid displacement experiments in porous media. Consider an experimental setup consisting of a pump, a core sample and a pressure valve. The core is initially saturated with oil and connate water i.e. So_init = 1 - Swc. The pump is connected to the inlet of the core sample and starts injecting pure water into the core with a constant rate (measured at Standard Condition). At the outlet a pressure valve is connected to the core that maintains a constant outlet pressure during the experiment.
 
 
-Assumptions:
+<ins>Assumptions</ins>:
 
 · The core is horizontal and gravity forces are neglected.
 
@@ -23,6 +23,16 @@ Here are the data input for the model and some key results.
 **Data input deck**
 
 1. Relative permeabilities and capillary pressure:
+
+P<sub>C_ow</sub> = 0 [bar]
+
+k<sub>rw</sub> = k<sub>rw</sub><sup>o</sup> (Sk<sub>e</sub>)<sup>n<sub>w</sub></sup>
+
+k<sub>ro</sub> = k<sub>ro</sub><sup>o</sup> (1 - Sk<sub>e</sub>)<sup>n<sub>o</sub></sup>
+
+Sk<sub>e</sub> = \frac{n!}{k!(n-k)!}
+
+n<sub>w</sub> = 3, n<sub>o</sub> = 2, k<sub>rw</sub><sup>o</sup> = 0.7, k<sub>ro</sub><sup>o</sup> = 0.8, S<sub>wc</sub> = 0.2, S<sub>or</sub> = 0.1 
 
 2. Fluid Densities and viscosities:
 
