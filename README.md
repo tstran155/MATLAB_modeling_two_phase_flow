@@ -30,6 +30,8 @@ Here are the data input for the model and some key results.
 
 · Fluids have constant viscosity:
 
+mu_o = mu_w= 10<sup>-3</sup> [Pas.s]
+
 3. Rock properties:
 
 · Rock is homogenous, isotropic and incompressible:
