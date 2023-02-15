@@ -42,7 +42,7 @@ Here are the data input for the model and some key results.
 
 · Initial condition:
 
-   S<sup>o_ini</sup> = 1 - S<sup>wc</sup> , P<sup>ini</sup> = 100 [bar]
+   S</sup>o_ini<sup> = 1 - S</sup>wc<sup> , P</sup>ini<sup> = 100 [bar]
 
 
 **Modeling output and sensitivities of the mobility ratio and time step**
