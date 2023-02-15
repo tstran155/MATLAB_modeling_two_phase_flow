@@ -1,14 +1,19 @@
 # MATLAB_modeling_two_phase_flow (UPDATING!)
 
-In this project, I formulate an IMPESS method to simulate two-phase fluid displacement experiments in porous media. Consider an experimental setup consisting of a pump, a core sample and a pressure valve. The core is initially saturated with oil and connate water i.e. So_initial = 1- Swc. The pump is connected to the inlet of the core sample and starts injecting pure water into the core with a constant rate (measured at Standard Condition). At the outlet a pressure valve is connected to the core that maintains a constant outlet pressure during the experiment.
+In this project, I formulate an IMPESS method to simulate two-phase fluid displacement experiments in porous media. Consider an experimental setup consisting of a pump, a core sample and a pressure valve. The core is initially saturated with oil and connate water i.e. So_init = 1 - Swc. The pump is connected to the inlet of the core sample and starts injecting pure water into the core with a constant rate (measured at Standard Condition). At the outlet a pressure valve is connected to the core that maintains a constant outlet pressure during the experiment.
 
 Assumptions:
 
 · The core is horizontal and gravity forces are neglected.
+
 · The core is homogenous and isotropic.
-· Capillary pressure can be neglected.
+
+· Capillary pressure is neglected.
+
 · At the beginning of the experiment the entire core is pressurized to an initial pressure.
+
 · Fluids are slightly compressible.
+
 · The rock fluid properties are given.
 
 Here are the data input for the model and some key results.
