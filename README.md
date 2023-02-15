@@ -1,4 +1,4 @@
-# MATLAB_two_phase_flow_simulation
+# MATLAB_modeling_two_phase_flow
 
 Here are the data input for the model and some key results.
 
