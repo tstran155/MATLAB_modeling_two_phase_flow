@@ -28,9 +28,13 @@ Here are the data input for the model and some key results.
 
 · Fluids are slightly compressible with constant compressibility:
 
+ρ<sub>w_ref</sub> = 998 [kg/m<sup>3</sup>], ρ<sub>o_ref</sub> = 800 [kg/m<sup>3</sup>]
+
+c<sub>w</sub> = 10<sup>-10</sup> [1/Pa], c<sub>o</sub> = 10<sup>-8</sup> [1/Pa], p<sub>ref</sub> = 100 [bar] 
+
 · Fluids have constant viscosity:
 
-mu_o = mu_w= 10<sup>-3</sup> [Pas.s]
+mu_o = mu_w= 10<sup>-3</sup> [Pa.s]
 
 3. Rock properties:
 
